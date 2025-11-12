@@ -1,0 +1,189 @@
+25950302@stu.mmu.ac.uk
+
+🛁 Wealth vs. Income: Stocks and Flows
+
+This is a fundamental concept for understanding economics. The lecture uses a bathtub analogy to explain it.
+
+    Wealth: This is a stock. It is the total value of things you own (e.g., buildings, land, machinery, savings) minus your debts (what you owe). It is measured at a single point in time (e.g., "My wealth today is £50,000").
+
+    In the analogy: Wealth is the amount of water in the bathtub at this moment.
+
+Income: This is a flow. It is the amount of money you receive over a period of time (e.g., from your job, investments, or the government). It is measured per unit of time (e.g., "My income is £2,000 per month").
+
+    In the analogy: Gross income is the water flowing into the tub from the shower head.
+
+Other Key Definitions
+
+    Depreciation: This is the reduction in the value of your wealth (stock) over time, perhaps as your assets wear out.
+
+    In the analogy: Depreciation is the water evaporating from the tub (a flow).
+
+Net Income: This is your gross income minus depreciation. It represents the maximum amount you could consume without reducing your total wealth.
+
+Consumption: This is your expenditure on goods and services.
+
+    In the analogy: Consumption is the water leaving the tub through the drain (a flow).
+
+Savings: This is any income that you do not consume. When you save, you are adding to your stock of wealth.
+
+Investment: This refers to spending on newly produced capital goods, like machinery, equipment, or buildings.
+
+🧾 The Balance Sheet
+
+A balance sheet is a snapshot that summarizes what a household, firm, or bank owns and what it owes.
+
+    Assets: Anything of value that is owned.
+
+Liabilities: Anything of value that is owed to others.
+
+Net Worth (or Equity): This is the difference between your assets and liabilities (Net Worth = Assets - Liabilities). It represents your true wealth.
+
+This gives us the fundamental balance sheet equation:
+
+Assets = Liabilities + Net Worth
+
+A Commercial Bank's Balance Sheet
+
+A bank's balance sheet is unique and reveals how it operates.
+
+    Bank's Assets (What it owns):
+
+        Loans to households and firms: This is the bank's core business and its largest asset (e.g., 55% of its balance sheet). A mortgage is a "secured" loan where the house acts as collateral.
+
+Financial Assets: Things like government bonds, which the bank owns.
+
+Cash and Central Bank Reserves: This is highly liquid "base money" that the bank can access immediately. It's often a very small part of its assets (e.g., 2%).
+
+Other Assets: Loans to other banks, buildings, and equipment.
+
+Bank's Liabilities (What it owes):
+
+    Deposits: This is the largest liability (e.g., 50%). It is the money that households and firms have deposited, which the bank owes back to them on demand.
+
+Borrowing: Money the bank has borrowed from other banks or in the money market (both secured and unsecured).
+
+Bank's Net Worth (Equity):
+
+    This is the bank's own capital. For banks, it's typically very small compared to their assets (e.g., 4% of the balance sheet). This makes banks "debt-heavy".
+
+Bank Leverage
+
+Because a bank's net worth is so small compared to its assets, it is highly leveraged.
+
+    Leverage Ratio: This is calculated as Total Assets / Net Worth.
+
+Example: If assets are 100 and net worth is 4, the leverage ratio is 100/4 = 25. This means the bank's assets are 25 times its equity.
+
+The Risk: High leverage is risky. In the example, a tiny 4% drop in the value of the bank's assets (e.g., if some loans are not paid back) would completely wipe out its 4% net worth, making the bank insolvent (Liabilities > Assets). A smaller leverage ratio is safer.
+
+🏛️ The Financial System and Money
+
+What is Money?
+
+In our modern "fiat currency" system, money is essentially an IOU (I owe you). It's a liability that is trusted as a means of payment. For money to work, it must fulfill three functions:
+
+    Medium of Exchange: Everyone accepts it as payment for goods and services.
+
+Unit of Account: It provides a common way to measure the value of different things (e.g., we price a shirt in pounds, not in apples).
+
+Store of Value: It should hold its purchasing power over time (within reason).
+
+This system relies on trust, which is upheld by stable government institutions like the Central Bank.
+
+The Two Main Types of Money
+
+This is the most crucial concept in the lecture:
+
+    Base Money (or Central Bank Money)
+
+        What is it? It's a liability of the Central Bank.
+
+Is it risky? No, it is considered risk-free.
+
+What forms does it take?
+
+    Cash: Physical notes and coins.
+
+Reserves: The digital balances that commercial banks hold in their own accounts at the Central Bank.
+
+Commercial Bank Money
+
+    What is it? It's a liability of commercial banks.
+
+Is it risky? Yes, it is not risk-free because the commercial bank could fail.
+
+What form does it take?
+
+    Bank Deposits: The digital money in your current account.
+
+This type of money makes up the vast majority of the money supply in an economy (e.g., 79% in the UK).
+
+How Banks Create Money
+
+Banks do not simply lend out the money that savers deposit. Instead, banks create new money when they make loans. This is called endogenous money creation.
+
+Here is the example from the lecture:
+
+    Imagine a bank ("Bonus Bank") gives Gino a £100 loan.
+
+To do this, the bank does not take £100 from its vault. It simply updates its balance sheet.
+
+Simultaneously, two things happen:
+
+    On the Assets side: A new asset is created: "£100 loan to Gino" (This is an asset because Gino owes the bank money).
+
+On the Liabilities side: A new liability is created: "£100 deposit in Gino's account" (This is a liability because the bank owes Gino this money on demand).
+
+Result: £100 of new, digital, commercial bank money has just been created. The total money supply in the economy has increased.
+
+Risks in Banking
+
+This process of creating money and lending exposes banks to two major risks:
+
+    Maturity Transformation: Banks borrow short-term (deposits that can be withdrawn at any time) and lend long-term (e.g., a 30-year mortgage) .
+
+Liquidity Risk: Because of maturity transformation, a bank faces the risk that too many depositors will demand their (liquid) money back at once, but the bank's assets are "frozen" in illiquid long-term loans. This is a "bank run."
+
+Default Risk: The risk that borrowers will not be able to pay back their loans.
+
+Banks manage their liquidity risk by borrowing from each other on the money market. The interest rate in this market is determined by the demand for base money from banks and the supply of base money, which is controlled by the Central Bank .
+
+🚫 The Credit Market and Credit Rationing
+
+Why can't everyone get a loan? This is explained by the principal-agent problem in credit markets.
+
+    Principal: The lender (the bank).
+
+    Agent: The borrower (the household or firm).
+
+The Problem: The bank (principal) has a conflict of interest with the borrower (agent). The bank cannot perfectly know if the borrower's project will succeed or if the borrower will work hard to repay the loan. The borrower has "hidden actions" or "hidden attributes".
+
+How Banks Reduce This Risk
+
+To protect themselves from this uncertainty, banks demand:
+
+    Equity: The borrower must put some of their own wealth into the project.
+
+Collateral: The borrower must set aside property (like a house for a mortgage) that the bank can take if the loan is not repaid.
+
+The Consequence: Credit Rationing
+
+This solution creates a new problem: credit rationing.
+
+    People with less wealth find it difficult or impossible to provide the required equity or collateral.
+
+As a result, they are "rationed" out of the credit market. This takes two forms:
+
+    Credit-constrained: They are only able to borrow on very unfavourable terms (e.g., predatory lending with high interest rates).
+
+Credit-excluded: They are refused loans entirely.
+
+📝 Summary of Key Points
+
+    The Banking System: Banks are profit-seeking firms that create money by lending. This system faces challenges like the principal-agent problem, which leads to credit-constrained and credit-excluded individuals.
+
+What is Money? In our fiat system, money is an IOU. It has three functions (medium of exchange, unit of account, store of value). It can be categorized as risk-free (base money) or risky (commercial bank money).
+
+I hope these notes help you understand the core concepts from your lecture.
+
+Would you like to review the principal-agent problem in more detail, or perhaps go over the example of money creation again?

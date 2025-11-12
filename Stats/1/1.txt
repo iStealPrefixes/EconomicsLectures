@@ -1,0 +1,242 @@
+Module Overview
+
+    Key University Terms:
+
+        Module: A subject or unit you study.
+
+Semester: The name for a "term" at MMU. There are two per year: Sept-Jan and Jan-July.
+
+You will study 4 modules per semester.
+
+Module Goals:
+
+    This module covers both statistical theory (like the "bell curve") and practical skills in Excel (like forecasting).
+
+The concepts are fundamental and will be built upon in your second and third years.
+
+A major focus is on regression, which the lecturer notes is the main way economists conduct research.
+
+Resources:
+
+    There are 10 lectures in total.
+
+The Moodle site is essential. You can find tutorial answers and a module overview there.
+
+📝 Module Assessment
+
+The module is assessed by two pieces of coursework:
+
+    Task 1 (30% of marks) 
+
+    Task: You'll be given healthcare data for English regions.
+
+Output: You will use Excel to analyze the data and create a PowerPoint presentation with your recommendations on where the NHS should focus financial support.
+
+Task 2 (70% of marks)
+
+    Task: You'll be given data on new car sales from various countries.
+
+Output: You will write an essay, which must include charts, to show your forecast for car production to 2026 and interpret what the future might hold.
+
+🗓️ Lecture & Tutorial Schedule
+
+Here is a breakdown of the topics for the entire module. Note that computer sessions are for practicing the concepts in Excel.
+Week	Lecture Topic (Tuesdays)	Small Group Session (Computer Room)
+1	
+
+Module Introduction
+
+	
+
+Descriptive Stats: Mean, median, mode; Variance, standard deviation. Excel: Descriptive stats functions.
+
+2	
+
+Graphical analysis tools; Cross-section vs. time-series data.
+	
+
+	
+
+Charts: Histograms, bar charts, pie charts. Stats: Inter-quartile range, outliers. Excel: Charts, quartiles, box-and-whisker.
+
+3	
+
+Comparing two variables: Correlation.
+	
+
+	
+
+Excel: Correlation. Discussion of Coursework Task 1.
+
+4	
+
+Introduction to probability; Random variables; Probability distributions.
+	
+
+	
+
+Excel: Using bar charts to represent probability distributions.
+
+5	
+
+Probability Distributions: Binomial and normal distributions; The central limit theorem.
+	
+
+	
+
+Excel: The normal distribution ("bell curve"). Skills: How to create a PowerPoint file.
+
+-	No lecture or computer session	
+
+3rd-7th November is 'Get Career Ready' week
+
+7	
+
+Correlation (revisited); Using XY charts to assess correlation.
+	
+
+	
+
+Excel: Correlation and XY charts.
+
+8	
+
+Time-series data; Adding trendlines to charts; Forecasting based on trendlines.
+	
+
+	
+
+Excel: Fitting trendlines; Using =forecast.linear.
+
+9	
+
+Regression and Forecasting; Using multiple regression, including with seasonal data.
+	
+
+	
+
+Excel: Forecasting with seasonal data; Interpreting regression and statistical significance.
+
+10	
+
+Regression & Statistical Significance ; p-values; Estimating population mean from a sample.
+	
+
+	
+
+Excel: Using 'Forecast sheet'; Using forecast.ets; Copying charts to Word.
+
+11	
+
+Revision for Task 2; Looking at answers from previous students.
+	
+
+	
+
+Excel: Discussing Coursework Task 2.
+
+💡 Why Study Statistics for Economics?
+
+The lecture highlights that while economic forecasting is more complicated than astronomy , it is arguably more important for society.
+
+    In Business: A manager might use forecasting to decide how many machines to install in a factory. Getting this right benefits consumers and employees; getting it wrong can put the firm in trouble.
+
+In Government: An economist working for the UK government might use data (like birthrates) to plan how many nurses the NHS needs and where in the country they will be needed most.
+
+This module focuses on analyzing data, not on specific economic theories (like Keynesian or Neoclassical economics).
+
+🧮 Core Topic: Descriptive Statistics
+
+This is the main academic subject of Lecture 1. Descriptive statistics are used to summarize and make sense of data , such as the table of UK GDP growth rates.
+
+A 2023 paper by Meade & Driver states that forecasts can be summarized by "measures of location" and "measures of dispersion". This lecture introduces both.
+
+1. Measures of Location (Central Tendency)
+
+This is a single, "typical" number that represents a whole column of data. They are often just called an "average".
+
+    Mean:
+
+        What it is: The most common type of average.
+
+        How to Calculate: Add up all the values and divide by the number of values.
+
+Excel: =AVERAGE(...)
+
+Median:
+
+    What it is: The middle value in a sorted dataset.
+
+    How to Calculate:
+
+        Sort the data (e.g., highest to lowest).
+
+Repeatedly remove the highest and lowest values.
+
+Continue until only one or two values are left. If two values remain, the median is the mean of those two.
+
+Excel: =MEDIAN(...)
+
+Mode:
+
+    What it is: The value that occurs most often.
+
+Note: A dataset might not have a single mode (e.g., if several values appear twice, but no value appears three times).
+
+Excel: =MODE(...)
+
+Which "Average" to Use? Different measures have different advantages:
+
+    Use Mean: When you need a measure that is related to other statistical concepts like variance.
+
+Use Median: When your data has a few extreme values (outliers) or potential typos. The median is more "resilient" to these extremes.
+
+Use Mode: Best for non-continuous data. For example, a shoe shop might use the mode to decide which shoe size to put in the window display.
+
+2. Measures of Dispersion (Variability)
+
+This measures how much variation or "spread" exists in a set of numbers.
+
+    Variance:
+
+        Concept: A common way to measure dispersion. Simply subtracting the mean from each value doesn't work, as the positive and negative differences cancel out, and the total sum is always zero.
+
+How to Calculate:
+
+    First, calculate the mean of your data (e.g., 1.7).
+
+For each value (X) in your data, find its difference from the mean: (X–mean).
+
+Square each of those differences: (X–mean)2. This step is key as it makes all the resulting numbers positive.
+
+Sum (add up) all of these squared differences: ∑(X–mean)2.
+
+Finally, divide this total sum by the number of rows (n): Variance=n∑(X–mean)2​.
+
+    Example from slide: The sum of squared differences was 264.03, and there were 24 rows. So, 264.03/24=11 (approximately).
+
+Excel: =VARP(...)
+
+Standard Deviation:
+
+    Concept: This is another, very common way to measure variation. It is directly related to variance.
+
+Key Fact: If the standard deviation is zero, it means all the numbers in your list are identical.
+
+How to Calculate: It is simply the square root of the variance.
+
+    Example from slide: Variance=11.001. The standard deviation is 11.001​, which is approximately 3.317 .
+
+Excel: =STDEVP(...)
+
+🏁 Lecture Summary
+
+This lecture gave an overview of the module and introduced the foundational concepts of descriptive statistics. You learned about:
+
+    Measures of Location (mean, median, mode) to find a "typical" value.
+
+Measures of Dispersion (variance, standard deviation) to measure the spread in a sample.
+
+These ideas will be practiced in this week's computer lab using Excel.
+
+Would you like a deeper dive into any of these topics, such as the pros and cons of mean vs. median, or a step-by-step example of calculating variance?

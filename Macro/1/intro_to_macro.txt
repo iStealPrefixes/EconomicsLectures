@@ -1,0 +1,228 @@
+25950302@stu.mmu.ac.uk
+
+Intro to macro economics
+
+Macro economics, is the bigger picture; essentially the whole economy. e.g GDP, Employment etc
+
+In the first year, we learn "Neoclassical Economics"
+
+
+A.I notes:
+
+General Admin
+
+    Unit: Introduction to Macro Economic Principles.
+
+Unit Leader: Dr. Sophia Kuehnlenz.
+
+Tutorial Leaders: Dr. Tidings Ndhlovu and Dr. John Simister.
+
+Main Textbook: The Economy: Economics for a changing World (1.0) by The Core Team (2017). This is available for free online.
+
+Structure:
+
+    Lectures: 1 hour long, held on Wednesdays, and will be recorded.
+
+Tutorials: 1.5 hours long. These are not second lectures; you must come prepared to discuss your work and get feedback.
+
+Unit Structure & Assessment
+
+    Unit Split:
+
+        Weeks 1-5 (Theory): Understanding economic theory, fluctuations, GDP, inflation, unemployment, and policy choices using models.
+
+Weeks 7-10 (Application): Using actual data (mostly from the UK) to test and critically evaluate the theories.
+
+Assessment (2 parts):
+
+    1. MCQ (20%):
+
+        Date: 31st October 2025.
+
+Format: 20 randomly chosen questions, 2-hour window to complete (opens 2:00 pm, closes 8:00 pm).
+
+2. Written Assignment (80%):
+
+    Deadline: 12th December at 9:00 pm.
+
+You should be able to start the theory section after Week 5.
+
+📈 What is Macroeconomics?
+
+Macroeconomics looks at the "big picture". Instead of focusing on one individual or firm, it studies the economy as a whole, using aggregates (combined data) at a national or international level.
+
+Key topics include:
+
+    GDP growth
+
+    Inflation
+
+    Unemployment
+
+    Economic fluctuations and crises
+
+    Inequality
+
+    The role of institutions
+
+The lecture also noted there are different ways of looking at the economy, broadly split into Mainstream and heterodox approaches.
+
+🚀 Unit 1: The Capitalist Revolution
+
+This unit focuses on explaining one of the most important events in economic history: the rapid, sustained growth in average living standards that began around 1700.
+
+The "Hockey-Stick" of Growth
+
+This refers to the shape of graphs showing GDP per capita (average income) over time.
+
+    The "Handle": For thousands of years, living standards were very low and didn't grow in any sustained way.
+
+The "Blade": Around 1700, living standards in some countries suddenly began to grow very rapidly, creating a sharp, upward kink in the graph.
+
+This "hockey-stick" growth started at different times in different countries (e.g., Britain first, while China and India took off much later). This divergence led to the vast differences in living standards we see across the world today.
+
+📊 Measuring Income & Living Standards
+
+To track this growth, we need to measure it. The two most common measures are GDP per capita and disposable income.
+
+    Gross Domestic Product (GDP): A measure of the total income and output of the economy in a given period.
+
+    GDP per capita: This is the average income, calculated as GDP divided by the country's population.
+
+Disposable Income: The amount of income a person actually has to spend.
+
+    Formula: Total income – taxes + government transfers.
+
+Key Limitation: Both GDP per capita and disposable income are imperfect measures of well-being. They don't capture many things that make life good, such as:
+
+    The quality of the environment
+
+    Free time
+
+    Goods and services not bought (like care from family)
+
+    Well-being from things we can't buy 
+
+    GDP per capita is an average, so it also hides inequality within a country.
+
+⚙️ Explaining the "Hockey-Stick" Kink
+
+Why was the world flat for so long, and what caused the sudden upward turn?
+
+1. The Stagnation (The "Flat Handle"): Malthus's Law
+
+Before the Industrial Revolution, societies were stuck in a "Malthusian trap".
+
+    The idea: If technology improved and living standards rose, the population would expand.
+
+This larger population would then have to work the same amount of land, causing average income per person to fall back down.
+
+Any short-term gain in income was erased by population growth, keeping living standards low and stagnant.
+
+2. The Growth (The "Blade"): The Industrial & Capitalist Revolutions
+
+The escape from this trap happened for two main reasons:
+
+    The Industrial Revolution: A wave of technological advances (like the steam engine, electricity) starting in 18th-century Britain. This allowed an incredible increase in production and efficiency, breaking the Malthusian cycle.
+
+Capitalism: This new economic system emerged and, combined with the technological revolution, fueled growth.
+
+🏛️ What is Capitalism?
+
+Capitalism is an economic system defined by three key institutions:
+
+    Private Property: Ownership rights over possessions.
+
+    A crucial type is capital goods—the non-labour inputs used in production, like machines, buildings, and raw materials.
+
+Markets: A way for people to exchange products and services for their mutual benefit. Markets are:
+
+    Reciprocated: An exchange (unlike a gift).
+
+Voluntary: Both the buyer and seller engage by choice because they benefit.
+
+Competitive: There are usually multiple buyers and sellers.
+
+Firms: Business organizations with a specific structure:
+
+    They own capital goods (private property).
+
+They hire employees (pay wages and salaries).
+
+They direct employees in the production of goods and services.
+
+They sell these outputs on markets.
+
+Their primary aim is typically to make a profit.
+
+How Capitalism Drives Growth
+
+Capitalism led to the sharp growth in living standards for two main reasons:
+
+    Incentives for Technology: Firms competing in markets have a strong incentive to develop and adopt new technologies. This allows them to produce more efficiently, lower their costs, and make more profit.
+
+Specialization: The growth of firms and the expansion of markets allowed for an unprecedented specialization in tasks and production. This (along with new technology) dramatically increased worker productivity.
+
+🌍 Divergence: Why Aren't All Capitalist Economies Successful?
+
+Capitalism is not a guarantee of success. The "hockey-stick" graph shows massive divergence (e.g., South Korea's rapid growth vs. Nigeria's stagnation).
+
+Success depends on both economic and political conditions:
+
+1. Economic Conditions
+
+The key institutions can fail:
+
+    Private property is not secure: If there is a weak rule of law or risk of government/criminal expropriation, people won't invest.
+
+Markets are not competitive: If firms are protected from competition, they have no incentive to innovate or be efficient.
+
+Firms are run by connections, not merit: If firms are owned/managed by people with government connections or from privileged birth (not because they are good at their job), they will underperform.
+
+2. Political Conditions (The Role of Government)
+
+The government is essential for a capitalist economy to function well.
+
+    It regulates the economy and enforces property rights and laws, which are necessary for markets to work.
+
+It provides essential goods and services that firms don't, such as infrastructure, education, and national defence.
+
+📉📈 Capitalism, Inequality & The Environment
+
+The capitalist revolution has had other profound effects besides just growth.
+
+Capitalism and Inequality
+
+    1,000 years ago, the world was "flat"—most countries were poor, so inequality was low.
+
+The "hockey-stick" divergence created large inequalities between countries.
+
+However, in recent decades (since ~1980s):
+
+    Inequality between countries has started to decline (as large countries like China and India have grown).
+
+Inequality within many countries (like the US and UK) has increased dramatically.
+
+Capitalism and the Environment
+
+The economy is not separate from nature; it is part of the biosphere and relies on natural resources.
+
+    The Problem: Rapid economic expansion (growth in output) has led to increased use of natural resources and severe environmental degradation.
+
+Climate Change: The burning of fossil fuels (coal, oil, gas) has dramatically increased CO₂ emissions since 1800. This has raised atmospheric CO₂ levels, causing average global temperatures to rise.
+
+The Potential Solution? The lecture ends by asking if the same "permanent technological revolution" that caused the problem could also be part of the solution (e.g., by creating new, green technologies).
+
+📌 Summary of Key Points
+
+    Trends: The last 250 years have seen "hockey-stick" growth in GDP, which has been accompanied by increased inequality (especially within countries) and major negative environmental consequences.
+
+Drivers: These trends were driven by the Technological Revolution and the adoption of the Capitalist economic system.
+
+Capitalism: This system is defined by three institutions: Private Property, Markets, and Firms.
+
+Divergence: Capitalism's success is not automatic. It fails if its institutions (property, markets, firms) are weak or if the government fails to perform its essential role.
+
+I hope these notes help you understand the core concepts from your first lecture.
+
+

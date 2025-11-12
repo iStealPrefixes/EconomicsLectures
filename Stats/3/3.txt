@@ -1,0 +1,149 @@
+Main Topics:
+
+    How to assess outliers 
+
+Correlation and why it's helpful
+
+Explanation of the first coursework task
+
+📊 1. Outliers: Identifying Extreme Values
+
+An outlier is a value in your data that seems very different from the majority of the other values.
+
+The 1.5 x IQR Rule (A Mathematical Definition)
+
+This is a very common statistical method to decide if a value is an outlier.
+
+    First, you calculate the quartiles:
+
+        Q1 (Lower Quartile): The 25th percentile of your data.
+
+        Q3 (Upper Quartile): The 75th percentile of your data.
+
+Next, find the Inter-Quartile Range (IQR):
+
+    This is simply the range between the two quartiles: IQR = Q3 - Q1.
+
+Finally, apply the rule to find your "fences":
+
+    A value is a mild outlier if it is more than Q3 + 1.5(IQR).
+
+A value is a mild outlier if it is less than Q1 - 1.5(IQR).
+
+A value is an "extreme" outlier if it goes even further, past 3 times the IQR (e.g., > Q3 + 3(IQR) or < Q1 - 3(IQR)).
+
+Box-and-Whisker Charts (A Visual Definition)
+
+A box-and-whisker chart is a great way to visually spot outliers.
+
+    The central box shows the IQR (from Q1 to Q3).
+
+    The line inside the box is the median (the 50th percentile).
+
+    The "whiskers" (the lines extending from the box) typically represent the normal range of the data (often using the 1.5 x IQR rule).
+
+    Any data points (dots) that fall outside the whiskers are considered outliers.
+
+    Note on Excel: The lecture mentions that Excel's built-in box plot function might use a slightly different definition for outliers, but it is still a very helpful tool for identifying extreme values.
+
+Examples from the Lecture
+
+    Investment Chart: The box plot for "govt investment" and "investment in private homes" shows no outliers, as all the data points (dots) are inside the whiskers.
+
+GDP Growth Chart: This chart does show outliers. Several dots are above the top whisker and one is far below. The second quarter of 2020 (2020 q2) is identified as one of these significant outliers.
+
+UK Inflation Chart: This chart also shows outliers, with 2022 being one of the high values outside the top whisker.
+
+🧠 2. Types of Statistical Procedures
+
+The lecture breaks statistics down into three main types:
+
+    Descriptive Statistics: This is about describing and summarizing data you have.
+
+    What it does: Uses tables, graphs, and simple calculations (like averages or percentages).
+
+    Example questions: "What is the average income in postcode M15 6BH?" or "What percentage of students live on campus?".
+
+Inferential Statistics: This is about using a small sample to draw conclusions (or 'infer') about a much larger population.
+
+    Why use it? It's often too expensive or impossible to get data from everyone (like a census).
+
+Example question: "What percentage of all UK citizens agree with capital punishment?". You would ask a sample of people and use their opinions to infer what the whole UK population thinks.
+
+Explanatory Statistics: This goes one step further to try and explain why something is happening or if two things are related.
+
+    Example question: "Does where a student lives (on or off-campus) affect their academic performance?". This connects a descriptive finding (where students live) to another variable (academic performance).
+
+🏷️ 3. Types of Variables (Levels of Measurement)
+
+Understanding your variable type is crucial because it determines what kind of statistical analysis you can do.
+
+    1. Nominal (Categorical):
+
+        These are categories with no natural order.
+
+Examples: Favourite ice-cream flavour (Vanilla, Chocolate), race, religion.
+
+You can't calculate a meaningful average (e.g., the "average religion" doesn't exist).
+
+2. Ordinal:
+
+    These are categories that have an order, but the gap between them isn't equal or measurable.
+
+Examples: Likert scales (e.g., "Strongly Agree, Agree, Disagree") or socio-economic class.
+
+3. Interval (Scale):
+
+    The gap (interval) between numbers is meaningful and equal, but there is no true or meaningful zero.
+
+Example: Temperature in Celsius or Fahrenheit. 0°C doesn't mean "no heat," and it's different from 0°F.
+
+Key limitation: You can comment on the interval (26°C is 13 degrees hotter than 13°C) , but you cannot make ratio comparisons (26°C is not "twice as hot" as 13°C).
+
+4. Ratio:
+
+    This is the most detailed level. It has a meaningful interval and a true, meaningful zero.
+
+Example: Age, weight, income.
+
+What you can do: You can make both interval (the 10-year gap between 20 and 30 is the same as between 30 and 40) and ratio comparisons (a person who is 60 is twice as old as a person who is 30).
+
+5. Dichotomous:
+
+    A special variable with only two categories.
+
+Examples: Male/Female, Dead/Alive.
+
+How it's used: We often code these as 0 or 1 (e.g., female=0, male=1). This allows this categorical variable to be used in more advanced analyses like regression.
+
+🤝 4. Correlation: Measuring Relationships
+
+Covariance (The Less-Useful Measure)
+
+Covariance measures the joint variability of two variables.
+
+    Positive covariance: When X is high, Y tends to be high.
+
+Negative covariance: When X is high, Y tends to be low.
+
+Main Problem: The value is not standardised. Its number depends on the units used (e.g., measuring in Pounds vs. Pence gives a different covariance). This makes it very hard to interpret how strong the relationship is.
+
+Pearson Correlation (The More-Useful Measure)
+
+Correlation solves the problem of covariance. It measures the strength and direction of a linear relationship.
+
+    It is standardised, so the units of measurement don't matter.
+
+It is always a number between -1 and +1.
+
+    -1: A perfect negative correlation (as X goes up, Y goes down in a perfect straight line).
+
++1: A perfect positive correlation (as X goes up, Y goes up in a perfect straight line).
+
+0: No linear correlation.
+
+⚠️ A Key Warning About Correlation
+
+The Pearson correlation coefficient only measures straight-line (linear) relationships.
+
+It's possible for two variables to have a very strong curved (non-linear) relationship (like a "U" shape) but still have a correlation coefficient of zero. This is why you must always look at the scatter plot!

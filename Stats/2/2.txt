@@ -1,0 +1,143 @@
+📝 Lecture 2: Key Topics
+
+This lecture covers several key areas:
+
+    Data Types: Understanding the different kinds of data you'll work with.
+
+Charts: Identifying and using useful chart types.
+
+Data Variation: Analyzing data spread using quartiles, the inter-quartile range (IQR), and outliers.
+
+📊 1. Understanding Data Types
+
+Before you can analyze data, you must know what type of data it is.
+
+Cross-Section vs. Time-Series Data
+
+Economists typically use one of these two types:
+
+    Cross-Section Data: This is a set of data for one specific point in time (e.g., one year) that covers many different units (e.g., many countries).
+
+Time-Series Data: This is data for one specific unit (e.g., the UK) collected over a period of time (e.g., annual UK data since 2014).
+
+    Note: There is also panel data, which combines both (data for many units over many years) , but this module will not cover it. Your first coursework will use cross-section data , and your second will use time-series data.
+
+Continuous vs. Categorical Data
+
+    Continuous Data: This is numerical data where the value can be anything, often with no practical upper limit. GDP is a good example.
+
+Categorical Data: This is data that fits into one of a few possible categories. Examples include days of the week, type of car, or a city.
+
+    While often labelled with words (e.g., "male", "female") , it's more efficient in Excel to use numbers (e.g., 1 = male, 2 = female).
+
+📈 2. Using Charts to Visualize Data
+
+Charts are essential for revealing insights that are not obvious from tables of data.
+
+Bar Charts vs. Histograms
+
+These two charts look similar but are used for different things.
+
+    Bar Chart
+
+        Use: Used to represent categorical data.
+
+Features: Uses rectangular bars where the length (or height) of the bar is proportional to the value it represents (e.g., total sales).
+
+The example in the slides (Slide 10) shows a bar chart where each bar has the same width.
+
+Histogram
+
+    Use: A graphical representation of data that has been grouped into numerical ranges (or "class intervals").
+
+Features: The area of the bar represents the size of its class interval. This means the bar widths can be different, unlike in the bar chart example.
+
+Histograms can be created directly from continuous data in Excel.
+
+Choosing the Best Chart for Comparisons
+
+The lecture compares UK investment data for 2022 and 2023 using different charts to see which is most effective.
+
+    Two Pie Charts: This method (shown on Slide 13) makes it hard to assess changes between the two years.
+
+Stacked Bar Chart: This chart (Slide 14) was not considered helpful for this specific comparison , but it is good at showing which types of investment are big or small.
+
+100% Stacked Column Chart: This chart (Slide 15) can reveal big changes , but it loses information by making both bars the same total height.
+
+The Best Chart (Slide 17): The lecturer suggests a side-by-side column chart is one of the best for this task.
+
+    It clearly shows that business and government investment increased in 2023.
+
+It also clearly shows that investment in private dwellings hardly changed.
+
+Key Takeaway: The "best" chart depends on what you are studying and partly on personal taste. It's important to spend time choosing the right charts for your essays.
+
+🧮 3. Measuring Variation: Quartiles, IQR, and Outliers
+
+This week's lecture focuses on using the median and interquartile range to understand data, as an alternative to last week's "mean" and "standard deviation" .
+
+Quartiles
+
+Quartiles, along with the median, help us assess the variation (or spread) in a set of data. Quartiles divide your sorted data into four equal parts.
+
+    Lower Quartile (Q1): The 25th percentile. 25% of the data is below this value.
+
+    Median (Q2): The 50th percentile. This is the middle value of the data.
+
+    Upper Quartile (Q3): The 75th percentile. 75% of the data is below this value.
+
+In Excel, you find them using these formulas (assuming your data is in cells D4 to D30):
+
+    Lower Quartile: =QUARTILE(D4:D30, 1) 
+
+Upper Quartile: =QUARTILE(D4:D30, 3)
+
+Using the "UK business investment" data, the lecture finds:
+
+    Upper Quartile (Q3): 208,528 
+
+Median: 156,529
+
+Lower Quartile (Q1): 133,175
+
+Inter-Quartile Range (IQR)
+
+The IQR is a measure of statistical variation and is calculated by subtracting the lower quartile from the upper quartile.
+
+    Formula: IQR = Q3 – Q1 
+
+A smaller IQR means less variation (the data is more bunched together).
+
+Example: Comparing variation in "govt investment" vs. "Invested in private homes":
+
+    Govt Investment:
+
+        Q3 (54,812) - Q1 (26,847) = IQR 27,965 
+
+Investment in Private Homes:
+
+    Q3 (67,610) - Q1 (41,671) = IQR 25,939 
+
+Conclusion: The "Invested in private homes" data has less variation because its IQR is smaller.
+
+Box and Whisker Chart
+
+A box and whisker chart (like the one on Slide 22) is an excellent way to visualize the median, quartiles, and variation all at once.
+
+Outliers
+
+An outlier is a data point that seems very different from most of the other values in the dataset. These can sometimes be the result of typing errors.
+
+You can use the IQR to mathematically identify outliers:
+
+    Find Q1, Q3, and the IQR .
+
+Calculate the "fences":
+
+    Upper Fence: Q3 + (1.5 x IQR) 
+
+Lower Fence: Q1 – (1.5 x IQR)
+
+Any data point above the upper fence or below the lower fence is considered an outlier.
+
+Outliers are often shown as separate dots on a box-and-whisker chart.

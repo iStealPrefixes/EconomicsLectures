@@ -1,0 +1,135 @@
+📈 The Business Cycle
+
+This is the central theme of the lecture.
+
+    Definition: The business cycle describes the economy's alternating periods of positive (boom) and negative (recession) GDP growth rates.
+
+Recession: A recession is formally defined as a period when output (GDP) is either declining or below its potential level.
+
+Key Insight: Economic growth is not a smooth process. It fluctuates, as seen in graphs of quarterly GDP growth.
+
+Okun's Law: This key concept describes the relationship between the business cycle and the job market. It shows that as GDP growth falls during a recession, the unemployment rate tends to rise. The historical graph [in source 43] clearly shows unemployment spiking during the Great Depression (1929) and the Global Financial Crisis (2008), precisely when GDP growth collapsed.
+
+📊 Measuring the Aggregate Economy (GDP)
+
+To understand the business cycle, we first must measure the economy.
+
+Key Definitions
+
+    Aggregate Economy: This simply means the economy as a whole, the sum of all its parts.
+
+Aggregate Output (GDP): This is the total output of all producers in a country. GDP is the final value of all goods and services produced within a country during a specific time period. Its growth rate is a key indicator of economic performance.
+
+National Accounts: This is the system used to measure a country's overall output and expenditure.
+
+The Circular Flow Model
+
+The national accounts are based on the circular flow model, which shows the relationship between spending, production, and income.
+
+    The model shows that households and firms both receive income and spend it.
+
+The core idea is that one person's expenditure is another person's income.
+
+The Components of GDP
+
+We can measure GDP by adding up all the spending in the economy. This is also known as Aggregate Demand (AD) or Y.
+
+The formula is:
+
+GDP (Y) = C + I + G + (X – M)
+
+    C = Consumption: All expenditure by households on consumer goods (like food) and services (like haircuts). This is the biggest component of GDP in most countries.
+
+I = Investment: Expenditure on newly produced capital goods. This includes firms buying new equipment, building new factories, and also inventories (unsold output).
+
+G = Government Spending: All government expenditure on goods (like office equipment) and services (like the wages of police, teachers, and civil servants). Important: This excludes transfer payments (like pensions or unemployment benefits) to avoid double-counting them.
+
+(X – M) = Net Exports (or Trade Balance): This is Exports (X) (goods produced domestically and sold abroad) minus Imports (M) (goods produced abroad and purchased domestically). We add exports (domestic production) and subtract imports (foreign production).
+
+🏠 Economic Fluctuations and Consumption
+
+This section explores how households react to the business cycle.
+
+Shocks and Smoothing
+
+    Economies fluctuate because they are hit by shocks—unexpected events (like extreme weather, a war, or a financial crisis) that cause GDP to fluctuate.
+
+Households try to manage these shocks using two strategies:
+
+    Self-insurance: Using your own resources. This means saving during good times and then borrowing or spending those savings during bad times.
+
+Co-insurance: Relying on others. This can be support from a social network or, more formally, from the government's welfare state (funded by taxes).
+
+The Consumption Smoothing Model
+
+The main goal for households is to smooth their consumption over time. They prefer a stable standard of living.
+
+        The model shows that an individual's income (blue line) fluctuates over their life: it starts low, rises with a promotion, and falls at retirement.
+
+Their consumption (red line), however, remains relatively smooth and flat.
+
+This is achieved by:
+
+    Borrowing while young (when income is low).
+
+    Saving and repaying debt during peak earning years.
+
+    Running down savings after retirement.
+
+Limits to Smoothing
+
+    Consumption smoothing is a basic source of stabilization in an economy.
+
+However, it has limits. If households face credit constraints (meaning they can't get a loan when their income falls), they cannot borrow. This prevents smoothing and can even amplify a negative shock, making a recession worse.
+
+🏭 Economic Fluctuations and Investment
+
+Investment (spending by firms) is another key piece of the puzzle.
+
+    Keynesian Insight: In an economy with spare capacity (not all machines and workers are being used), the total level of output is determined by aggregate demand (AD).
+
+The Role of Expectations: Firms make investment decisions based on their expectations about future demand. This creates powerful feedback loops.
+
+    Virtuous Cycle (Boom): High expectations ➔ High business confidence ➔ Firms invest and hire ➔ Higher spending by workers and firms ➔ High demand ➔ High profits ➔ (Confirms high expectations).
+
+Vicious Cycle (Recession): Low expectations ➔ Low confidence ➔ Low profits ➔ No incentive to invest or hire ➔ Little spending ➔ Low demand ➔ (Confirms low expectations).
+
+Investment is Volatile: Because business confidence tends to move together, firms often all decide to invest (or cut back) at the same time. This makes investment much more volatile than GDP. The graph in the lecture [source 133] shows that the investment line (red) has much more dramatic peaks and troughs than the overall demand line (blue).
+
+💸 Inflation
+
+The final piece is the change in prices.
+
+    Definition: Inflation is an increase in the general price level in the economy.
+
+Business Cycle Link: Historically, inflation tends to be lower during recessions (when unemployment is high).
+
+Recent Anomaly: The slides note that recently, this link has weakened. We have observed increasing inflation even with low or no GDP growth.
+
+Types of Inflation
+
+    Demand-Pull Inflation: Caused by rapidly rising aggregate demand when the economy is at or near its full capacity. (Essentially, "too much money chasing too few goods").
+
+Cost-Push Inflation: Caused by an increase in the price of inputs (e.g., raw materials, energy, or labor).
+
+How Inflation is Measured
+
+    Consumer Price Index (CPI): This is the most common measure. It tracks the price of a representative "bundle" of goods and services that an average consumer buys (their "cost of living"). The percentage change in the CPI is the inflation rate.
+
+GDP Deflator: This is a broader measure that tracks the prices of all domestically produced output (all components of GDP: C, I, G, and X-M). It is calculated as the ratio of nominal GDP to real GDP.
+
+📌 Lecture Summary
+
+Here are the main takeaways from this unit:
+
+    Economic growth is not smooth; the economy follows a business cycle.
+
+We use the system of national accounts to measure the economy.
+
+GDP can be measured by income, spending, or production. The spending formula is GDP = C + I + G + X – M.
+
+Households try to smooth their consumption to cope with cycles, but this is limited by things like credit constraints.
+
+Investment is much more volatile than GDP because it is driven by business confidence and expectations.
+
+Inflation generally moves with the business cycle.

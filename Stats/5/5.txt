@@ -1,0 +1,135 @@
+📊 Statistics Lecture 5 Notes: Key Concepts
+
+This lecture revisits key probability rules, introduces probability distributions (Binomial and Normal), explains the Central Limit Theorem, and provides detailed help for your first coursework assignment.
+
+1. Revision: Key Probability Rules
+
+These are foundational rules from your previous lecture.
+
+    Addition Rule (The "OR" Rule): Used to find the probability of event A or event B happening.
+
+        Formula: Pr(A or B)=Pr(A)+Pr(B)−Pr(A and B).
+
+Explanation: You must subtract the probability of both happening (A and B) to avoid "double counting" the overlap. A Venn diagram helps visualize this overlap.
+
+Special Case: If events are mutually exclusive (they cannot happen at the same time), then Pr(A and B)=0, and the rule simplifies to: Pr(A or B)=Pr(A)+Pr(B).
+
+Multiplication Rule (The "AND" Rule): Used to find the probability of event A and event B both happening.
+
+    Formula: Pr(A and B)=Pr(A)×Pr(B∣A).
+
+Explanation: Pr(B∣A) is the conditional probability—the probability of B happening, given that A has already happened.
+
+Special Case: If events are independent (one event does not affect the other), then Pr(B∣A) is simply Pr(B), and the rule simplifies to: Pr(A and B)=Pr(A)×Pr(B).
+
+2. Revision: The Combinatorial Formula (nCr)
+
+    Purpose: This formula tells you the number of ways you can choose a smaller group (r) of items from a larger set (n), when the order you choose them in doesn't matter.
+
+Example: You have 5 ambulances (n=5) and need to choose 2 (r=2). The formula 5C2​ calculates that there are 10 possible combinations.
+
+Excel Function: You can calculate this in Excel using the function: =COMBIN(n, r) (e.g., =COMBIN(5, 2)).
+
+3. Probability Distributions
+
+This was the main new topic, showing how probabilities are spread across different outcomes.
+
+The Binomial Distribution
+
+This distribution is used when your data has only two possible outcomes (e.g., "ready" or "not ready," "success" or "failure").
+
+    Example: The lecture uses an ambulance example where the probability of being 'ready' is 0.9 and 'not ready' is 0.1.
+
+The slides show tables for the probability of having x number of ambulances ready when the total n is 1 , 2 , 5 , 16 , and 31 .
+
+Key Insight: As n (the number of ambulances) gets larger, the graph of the distribution becomes more symmetrical and starts to look like a "bell curve".
+
+The Normal Distribution (The "Bell Curve")
+
+This is a very common and important symmetrical, bell-shaped distribution.
+
+    Key Features:
+
+        Peak: The highest point of the curve is at the mean (average) of the data.
+
+Probability: The probability of an outcome is represented by the area under the curve.
+
+Example: Women's heights are "normally distributed" with a mean of 166 cm . This means the bell curve for women's heights would peak at 166 cm .
+
+Finding Probabilities: To find the probability of a woman being taller than 175 cm, you would calculate the total area under the curve to the right of the 175 cm mark .
+
+4. The Central Limit Theorem (CLT)
+
+This is one of the most important theorems in statistics.
+
+    What it is: The CLT states that if you take a large number of random samples from any population, the distribution of the sample means will tend to follow a normal distribution (a bell curve). This works even if the original population was not normally distributed.
+
+How it's Shown: The slides show histograms where the sample size n increases from 10 to 25 to 50. As n gets bigger, the histogram of the sample means looks more and more like a smooth, normal distribution.
+
+Effect of Sample Size: A separate diagram shows two normal distributions for sample means:
+
+    One for a smaller sample size (n=25) which is wider and flatter.
+
+One for a larger sample size (n=100) which is taller and narrower.
+
+This means: Larger samples give you a more precise estimate of the true population mean (the sample means are more tightly clustered around the true value).
+
+5. 📝 Coursework 1 Guidance
+
+This is a practical guide to your first assessed task.
+
+    The Task: You must analyze an Excel file containing data on UK healthcare. You will then create a PowerPoint presentation (maximum 10 slides) to summarize what you can learn from the data.
+
+Deadline: 14th November 2025.
+
+Main Goal: The most important part is the analysis in Excel. You need to spend several hours understanding the data to find a "clear message" about which parts of the UK seem to have the worst healthcare, based on the data provided . The PowerPoint creation itself should only take 1-2 hours.
+
+Suggested 10-Slide Structure:
+
+    Slide 1: Title
+
+        Include the module title and your name or student number.
+
+Slide 2: Overview
+
+    Briefly state what your presentation is about.
+
+Slides 3-8: Analysis
+
+    This is the main body. Include your tables and charts from Excel.
+
+Crucially: You must explain what your charts tell us.
+
+WARNING: Copy and paste your tables/charts directly into PowerPoint. Do NOT use hyperlinks to your Excel or OneDrive files, as the markers (John and Vince) will not be able to access them.
+
+Slide 9: Conclusion
+
+    Summarize the key findings. What can we learn from your analysis? 
+
+Slide 10: References
+
+    You must include this specific reference for the data:
+
+Simister J. (2025), ‘Data selected by John Simister, for assessed coursework 1 of the Introduction to Statistics module’.
+
+Also, add any other sources you used (e.g., statistics textbook).
+
+Optional Audio/Video:
+
+    You can include audio or video recordings of yourself explaining the slides.
+
+This can raise your mark but is not required to pass.
+
+Keep it short: No more than 5 minutes in total.
+
+File Size Limit: The entire PowerPoint file must be under 100MB to upload to Moodle. Use low-resolution video if your file is too big.
+
+6. 📅 Admin & Announcements
+
+    Feedback: A mid-module feedback survey is available.
+
+No Class Next Week: There is no lecture or tutorial for this module in Week 6 (week commencing 3rd November).
+
+Careers Week: Week 6 is dedicated to career-ready events.
+
+Would you like me to find some practical examples of how the Central Limit Theorem is used in economics?

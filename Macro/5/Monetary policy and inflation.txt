@@ -1,0 +1,179 @@
+Here are the comprehensive lecture notes from your presentation slides, fully explained for your review.
+
+📝 Unit 15: Inflation, Unemployment, and Monetary Policy
+
+These notes cover the key definitions of inflation, its economic consequences, the relationship between inflation and unemployment (the Phillips Curve), and how central banks use monetary policy to manage the economy.
+
+1. Key Concepts of Inflation
+
+First, it's important to understand the main terminology:
+
+    Inflation: An increase in the general price level in the economy.
+
+Rate of Inflation: The speed at which the price level is increasing, measured as a percentage change (e.g., the annual CPI change).
+
+Zero Inflation: A constant price level, with no change from year to year.
+
+Deflation: A decrease in the general price level; prices are, on average, falling.
+
+Disinflation: A decrease in the rate of inflation. For example, inflation falling from 6% to 3% is disinflation (prices are still rising, just not as fast).
+
+A crucial concept for understanding the real-world impact of inflation is the Fisher Equation:
+
+    Real Interest Rate = Nominal Interest Rate – Inflation Rate 
+
+This shows that the real return on savings or the real cost of borrowing is what you get after accounting for inflation.
+
+2. The Problem with High Inflation
+
+While a low and stable rate of inflation is generally fine for an economy, high inflation causes significant problems:
+
+    For Households:
+
+        It hurts people on fixed nominal incomes, like pensioners, whose purchasing power rapidly decreases.
+
+Wages are often "sticky" (they don't adjust quickly), so if prices rise faster than wages, the real wage (what you can buy) falls. This was a major issue during the 2023 "Cost of Living Crisis" in the UK.
+
+It creates uncertainty, making it hard for people to plan spending, saving, or investing, which can negatively impact aggregate demand (AD).
+
+For Firms:
+
+    Firms also face sticky prices and must constantly use resources to update them.
+
+High uncertainty makes firms unlikely to invest in new projects, which harms AD.
+
+For Banks (Creditors):
+
+    Inflation reduces the real value of debt. This is good for borrowers but bad for lenders (like banks).
+
+If inflation is high and unpredictable, banks may become unwilling to lend, starving the economy of investment.
+
+For the Whole Economy:
+
+    At very high levels, inflation can undermine the function of money itself.
+
+It creates distrust and instability, as people lose faith in the currency (e.g., Zimbabwe).
+
+3. The Problem with Deflation
+
+Falling prices (deflation) might sound good, but it can be even more damaging than high inflation:
+
+    Postponed Consumption: When prices are falling, households will delay buying durable goods (like cars or furniture) because they expect them to be even cheaper in the future.
+
+Negative AD Shock: This widespread postponement of spending acts as a major negative shock to aggregate demand, shrinking the economy.
+
+Increased Debt Burden: Deflation increases the real value of debt. A £30,000 loan becomes harder to pay back when wages and prices are falling. This forces households to cut consumption further to manage their debts.
+
+4. The Phillips Curve: Inflation vs. Unemployment
+
+The Phillips Curve describes a potential inverse relationship between the rate of inflation and the level of unemployment.
+
+    The Theory:
+
+        When the economy is in an upswing, employment is high.
+
+High employment strengthens workers' bargaining position.
+
+Workers demand (and get) higher wages.
+
+This increases firms' production costs.
+
+Firms pass on these costs as higher prices (inflation). This can create a "wage-price spiral".
+
+The Reality:
+
+    This trade-off seemed to exist in the US during the 1960s.
+
+However, in recent decades (1970-2019), the data shows a much less clear relationship.
+
+More recently (up to 2020), the US saw low unemployment and low inflation, which goes against the traditional Phillips Curve.
+
+This suggests the Phillips Curve has "flattened".
+
+The same is true in the UK, where the relationship between the labor market and inflation has become weaker , largely due to low wage growth.
+
+5. Other Causes of Inflation
+
+Besides the Phillips Curve relationship, inflation can be caused by "shocks":
+
+    Supply Shocks: An unexpected change on the supply side of the economy.
+
+    Example: The oil price shocks in the 1970s.
+
+Effect: This caused stagflation—a simultaneous increase in both unemployment and inflation, which the simple Phillips Curve cannot explain.
+
+Demand Shocks: An unexpected change in aggregate demand.
+
+    Example: A sudden boom in consumer spending.
+
+    Effect: A positive demand shock can lead to inflation, especially if the economy is already operating near full capacity.
+
+6. Monetary Policy
+
+This is how central banks (like the Bank of England) manage inflation and stabilize the economy.
+
+    Goals:
+
+        Primary Goal: To achieve monetary stability through a low and stable inflation target (in the UK, this is around 2%).
+
+Secondary Goals: Supporting economic growth and employment.
+
+Types of Monetary Policy:
+
+    Expansionary (or "Loose") Policy: Used during a recession to stimulate growth.
+
+    Action: Decrease the policy interest rate or conduct Quantitative Easing (QE) (buying bonds to increase the money supply).
+
+Contractionary (or "Tight") Policy: Used during a boom to fight high inflation.
+
+    Action: Increase the policy interest rate or conduct Quantitative Tightening (QT) (selling bonds to reduce the money supply).
+
+7. The Monetary Transmission Mechanism
+
+This is how a change in the central bank's policy interest rate affects the whole economy and, eventually, inflation.
+
+As shown in the diagram, changing the Policy Interest Rate impacts four key channels:
+
+    Market Interest Rates: Affects the cost of mortgages and the return on savings.
+
+    Asset Prices: Higher rates can lower house and stock prices.
+
+    Expectations/Confidence: Businesses and consumers may become more or less optimistic.
+
+    Exchange Rate: A higher interest rate tends to strengthen the currency.
+
+These channels, in turn, influence Aggregate Demand (AD) and Import Prices, which ultimately determine the inflation rate.
+
+8. Monetary Policy in the Multiplier Model
+
+We can see this in the aggregate demand (AD) model:
+
+    AD = c₀ + c₁(1-t)Y + I(r) + G + X - mY
+
+The key variable here is I(r): Investment (I) is dependent on the interest rate (r).
+
+    Scenario: Imagine the economy is in a recession at Point B due to a fall in autonomous consumption (c₀). Output and employment are low.
+
+CB Response: The central bank conducts expansionary monetary policy by decreasing the policy rate.
+
+The Effect:
+
+    This leads to a decrease in the market interest rate (r).
+
+With cheaper borrowing, firms are encouraged to increase Investment (I).
+
+This shifts the entire AD curve upward.
+
+Through the multiplier process, this single increase in (I) leads to a larger total increase in output (Y), employment, and consumption, moving the economy back towards equilibrium at Point A.
+
+A lower interest rate can also cause the currency to depreciate, making exports (X) cheaper and further increasing AD.
+
+9. Limitations of Monetary Policy
+
+Monetary policy is powerful, but it has limits:
+
+    Zero Lower Bound (ZLB): The policy interest rate cannot be set below 0%. In a very deep recession, a 0% interest rate may still not be low enough to stimulate sufficient demand. (Note: Central bank digital currencies could change this in the future) .
+
+No Monetary Autonomy: A country that does not have its own currency (e.g., members of the Eurozone) cannot set its own monetary policy.
+
+I hope these detailed notes help you with your studies! Let me know if you'd like me to explain any of these concepts, like the multiplier model or the AD equation, in more detail.

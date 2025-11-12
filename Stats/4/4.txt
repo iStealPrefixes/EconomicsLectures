@@ -1,0 +1,167 @@
+Assessment & Excel
+
+1. First Coursework Task
+
+    This task was first introduced in Lecture 3.
+
+The lecturer will explain how to create the PowerPoint presentation file for this assessment in next week's lecture and tutorials.
+
+Key Advice: Don't worry about the PowerPoint part for now. Your immediate focus should be on using Excel to analyze the data. As you do your analysis, make notes for yourself about what you'll want to write in your final presentation.
+
+Students have a chance to discuss the coursework, which is due in November.
+
+2. Excel Tip: Sorting Data
+
+    It's often helpful to sort your data in Excel.
+
+While you can sort a single column , for the coursework data file, it makes more sense to sort all columns at once to keep the rows intact.
+
+The lecturer demonstrated how to do this in class.
+
+📊 Populations and Samples
+
+A key theme of this lecture is understanding the difference between a population and a sample.
+
+    Population: This is the entire group you are interested in. It doesn't always mean people. For example, a population could be "all firms in the UK".
+
+Sample: This is a subset drawn from that population.
+
+We use probability to understand how a random sample relates to the population it came from. This process is the basis for statistical inference—using data from a sample to draw conclusions about the whole population.
+
+🎲 What is Probability?
+
+Probability is essential for economists because it allows us to understand and interpret sample evidence.
+
+1. Key Definitions
+
+    Experiment: An activity with a range of possible outcomes (e.g., tossing a coin).
+
+Trial: A single performance of an experiment (e.g., one coin toss).
+
+Sample Space: The complete list of all possible outcomes.
+
+    Coin toss example: {Heads, Tails}.
+
+Die roll example: {1, 2, 3, 4, 5, 6}.
+
+Mutually Exclusive Outcomes: Outcomes that cannot happen at the same time in a single trial. You can't get both a head and a tail on one toss.
+
+Event: A specific combination of outcomes. For example, the event "rolling an even number" corresponds to the outcomes {2, 4, 6}.
+
+2. Views on Probability
+
+    Frequentist View: The proportion of times an event happens if you repeat the trial an infinite number of times.
+
+Subjective View: Someone's personal degree of belief that an outcome will occur.
+
+3. Basic Probability Rules
+
+    The Formula:
+
+    Probability=Total number of potential outcomesNumber of times an event can happen​ 
+
+    Example: The probability of drawing an Ace from a 52-card deck is Pr(Ace) = 4/52 = 1/13.
+
+The Scale (0 to 1):
+
+    A probability is always a number between 0 and 1.
+
+0 = Impossible (e.g., "Every MMU economics student appears on TV").
+
+1 = Certain (e.g., "The next Pope will be Catholic").
+
+Sum of Probabilities: The probabilities of all possible outcomes in the sample space must add up to 1.
+
+    Example: Pr(Head) + Pr(Tail) = ½ + ½ = 1.
+
+The Complement Rule (The "Not" Rule):
+
+    The probability of an event not happening is 1 minus the probability that it does happen.
+
+Formula: Pr(not A) = 1 - Pr(A) (also written as Pr(Ᾱ) = 1 - Pr(A) ).
+
+Example: Pr(not 'King of Spades') = 1 - Pr('King of Spades') = 1 - 1/52 = 51/52.
+
+🔄 Rules for Compound Events
+
+Compound events involve more than one outcome , using rules for "Or," "And," and "Given That".
+
+1. The "Or" Rule (Addition Rule)
+
+This rule is for finding the probability of event A or event B happening.
+
+    General Formula (Always Works):
+
+    Pr(A or B) = Pr(A) + Pr(B) – Pr(A and B) 
+
+    We must subtract Pr(A and B) if the events are not mutually exclusive (i.e., they can happen at the same time).
+
+Example: Pr(King or Heart) = Pr(King) + Pr(Heart) – Pr(King of Hearts) = 4/52 + 13/52 – 1/52 = 16/52. This is because the 'King of Hearts' gets counted twice (once as a King, once as a Heart).
+
+Simplified Formula (Mutually Exclusive Events ONLY):
+
+    If A and B cannot happen together (they are mutually exclusive ), then Pr(A and B) = 0.
+
+The formula simplifies to: Pr(A or B) = Pr(A) + Pr(B).
+
+Example: A card cannot be both an Ace and a King. Pr(Ace or King) = Pr(Ace) + Pr(King) = 4/52 + 4/52 = 8/52.
+
+2. The "And" Rule (Multiplication Rule)
+
+This rule is for finding the probability of event A and event B happening.
+
+    General Formula (using Conditional Probability):
+
+    Pr(A and B) = Pr(A) × Pr(B|A) 
+
+    Pr(B|A) is the conditional probability: "the probability of B happening, given that A has already happened".
+
+Example: What is the probability of drawing a second Ace, given that the first card was an Ace?. After taking one Ace, there are 3 Aces left in a deck of 51 cards. So, Pr(Second Ace | First Ace) = 3/51.
+
+Simplified Formula (Independent Events ONLY):
+
+    Two events are independent if one event happening has no effect on the probability of the other.
+
+If A and B are independent, then Pr(B|A) is the same as Pr(B).
+
+The formula simplifies to: Pr(A and B) = Pr(A) × Pr(B).
+
+Example: Rolling two dice. The outcome of the first die is independent of the second. Pr(Six and Six) = Pr(Six) × Pr(Six) = (1/6) × (1/6) = 1/36.
+
+🧮 The Combinatorial Formula
+
+This formula tells you the number of ways to choose r items from a set of n choices, when the order doesn't matter.
+
+    Formula: nCr=r!(n−r)!n!​ 
+
+n! (called "n-factorial") means n × (n-1) × (n-2) ... × 1.
+
+Example: How many combinations are there if we choose 3 letters from 5 (A, B, C, D, E)?. The answer is 10.
+
+🔔 Introduction to Probability Distributions
+
+    This is a preview of the topic for Lecture 5 (next week).
+
+A key example is The Normal Distribution, also known as the "bell curve".
+
+Key Characteristics:
+
+    Bell-shaped 
+
+Symmetrical
+
+Unimodal (it has one single peak)
+
+📚 Further Reading
+
+    The lecturer strongly encourages you to read a textbook chapter on probability.
+
+Recommended books (available via Moodle) include:
+
+    Swift & Piff (2014) 
+
+Berenson et al. (2020)
+
+Newbold, Carlson & Thorne (2013)
+
+Would you like me to find some practice problems for calculating "or" and "and" probabilities?
